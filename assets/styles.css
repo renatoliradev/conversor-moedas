@@ -15,6 +15,8 @@
     height: 766px;
     margin: 10px auto;
     background: #E5E5E5;
+    border: 2px solid #1B83E2;
+    border-radius: 25px 25px 0 0;
 }
 
 .title {
@@ -26,6 +28,7 @@
     color: #F4F4F4;
     font-size: 24px;
     letter-spacing: 2px;
+    border-radius: 23px 23px 0 0;
 }
 
 .content {
@@ -44,7 +47,7 @@
     font-weight: 700;
 }
 
-select, input {
+select, input, option {
     width: 100%;
     height: 48px;
     padding: 15px;
@@ -53,11 +56,22 @@ select, input {
     color: #555555;
     font-weight: 700;
     display: block;
+    border-radius: 5px;
+    border: none;
 }
 
-.btnConvert {
+select:hover, input:hover {
+    border: 1px solid #000000;
+}
+
+option {
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+#btnConvert {
     background: #1B83E2;
-    border-radius: 25px;
+    border-radius: 20px;
     color: #F4F4F4;
     font-size: 16px;
     font-weight: 700;
@@ -66,9 +80,22 @@ select, input {
     border: none;
 }
 
-.boxConvertedValues {
-    border: 1px solid black;
+#btnConvert:hover {
+    background: #F4F4F4;
+    color: #1B83E2;
+    border: 1px solid #1B83E2;
+}
 
+#btnConvert:active {
+    background: #F4F4F4;
+    color: #1B83E2;
+    border: 3px solid #1B83E2;
+    font-size: 14px;
+    box-shadow: none;
+
+}
+
+.boxConvertedValues {
     margin: 45px auto;
     width: calc(100% - 48px);
     height: 276px;
@@ -76,4 +103,18 @@ select, input {
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
+    border: 1px solid #1B83E2;
+    border-radius: 10px;
+    padding: 12px;
+    cursor: default;
+}
+
+.textConverted {
+    font-size: 14px;
+    color: #777777;
+}
+
+.valueConverted {
+    font-size: 20px;
+    color: #1B83E2;
 }
