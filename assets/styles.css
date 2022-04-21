@@ -58,6 +58,7 @@ select, input, option {
     display: block;
     border-radius: 5px;
     border: none;
+    background: #FFFFFF;
 }
 
 select:hover, input:hover {
