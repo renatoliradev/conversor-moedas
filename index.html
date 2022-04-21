@@ -6,39 +6,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/styles.css">
-    <title>Currency Converter</title>
+    <title>Conversor de Moedas</title>
 </head>
 
 <body>
     <div class="container">
         <div class="title">
-            <p>Currency Converter</p>
+            <p>Conversor de Moedas</p>
         </div>
         <div class="content">
             <p>Converter <strong>de</strong></p>
-            <select name="selectConvertFrom" id="selectConvertFrom">
+            <select name="selectConvertFrom" id="selectConvertFrom" tabindex="1">
                 <option value="fromReal">R$ Real Brasileiro</option>
                 <option value="fromDolar">$ Dólar Americano</option>
                 <option value="fromEuro">€ Euro</option>
             </select>
             <p>Converter <strong>para</strong></p>
-            <select name="selectConvertTo" id="selectConvertTo">
+            <select name="selectConvertTo" id="selectConvertTo" tabindex="2">
                 <option value="toDolar">$ Dólar Americano</option>
                 <option value="toEuro">€ Euro</option>
                 <option value="toBitcoin">BTC Bitcoin</option>
             </select>
             <p><strong>Valor</strong></p>
-            <input type="text" id="inputValueToConvert" maxlength="10" min="1" placeholder="R$ 10.000,00">
-            <input type="button" id="btnConvert" value="Converter">
+            <input type="text" id="inputValueToConvert" maxlength="7" min="1" placeholder="R$ 10.000,00" tabindex="3">
+            <input type="button" id="btnConvert" value="Converter" tabindex="4">
         </div>
-        <div class="boxConvertedValues">
-            <img id="imgConvertFrom" src="./assets/img/real.png">
-            <p id="textConvertedFrom" class="textConverted">Real Brasileiro</p>
-            <p id="valueConvertedFrom" class="valueConverted"></p>
-            <img src="./assets/img/seta.png">
-            <img id="imgConvertTo" src="./assets/img/dolar.png">
-            <p id="textConvertedTo" class="textConverted">Dólar Americano</p>
-            <p id="valueConvertedTo" class="valueConverted">$ 0,00</p>
+        <div class="boxConvertedValues" tabindex="-1">
+            <div class="convertedFrom">
+                <img class="imgConverted" id="imgConvertFrom" src="./assets/img/real.png">
+                <p id="valueConvertedFrom" class="valueConverted">R$ 0,00</p>
+            </div>
+            <img id="seta" src="./assets/img/seta.png">
+            <div class="convertedTo">
+                <img class="imgConverted" id="imgConvertTo" src="./assets/img/dolar.png">
+                <!-- <p id="textConvertedTo" class="textConverted">Dólar Americano</p> -->
+                <p id="valueConvertedTo" class="valueConverted">$ 0,00</p>
+            </div>
         </div>
     </div>
 </body>

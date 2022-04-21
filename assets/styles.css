@@ -11,8 +11,8 @@
 }
 
 .container {
-    width: 350px;
-    height: 766px;
+    width: 50vw;
+    height: 95vh;
     margin: 10px auto;
     background: #E5E5E5;
     border: 2px solid #1B83E2;
@@ -97,25 +97,43 @@ option {
 }
 
 .boxConvertedValues {
-    margin: 45px auto;
-    width: calc(100% - 48px);
-    height: 276px;
+    margin: 30px auto;
+    width: calc(100% - 10px);
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
     border: 1px solid #1B83E2;
     border-radius: 10px;
     padding: 12px;
     cursor: default;
 }
 
-.textConverted {
-    font-size: 14px;
-    color: #777777;
+#seta {
+    display: flex;
+    align-self: center;
+    height: 50%;
+}
+
+.imgConverted {
+    align-self: center;
 }
 
 .valueConverted {
+    margin-top: 10px;
     font-size: 20px;
     color: #1B83E2;
+    display: block;
+}
+
+.convertedFrom, .convertedTo {
+    display: inline;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 1000px) {
+    .container {
+        margin: 5px auto;
+        width: 95vw;
+    }
 }
