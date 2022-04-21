@@ -134,7 +134,6 @@ async function convertCurrency() {
             valueConvertedFrom.innerHTML = inputValueToConvert.toLocaleString('de-DE', { style: 'currency', currency: 'EUR' })
             valueConvertedTo.innerHTML = ('BTC ' + euroToBitcoin)
         }
-        document.querySelector('#inputValueToConvert').select()
     }
     catch (err) {
         if (inputValueToConvert < 0)
