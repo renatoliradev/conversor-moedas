@@ -6,7 +6,7 @@
 <a href="https://renatolira-conversormoedas.netlify.app/">Aplicativo ONLINE, Clique para acessar!</a> 
 
 <h4 align="center">
-  Uma aplicação simples desenvolvida com HTML + CSS + JavaScript, consumindo a API de cotação de moedas da <a href="https://docs.awesomeapi.com.br/api-de-moedas">AwesomeAPI</a>.
+  Uma aplicação desenvolvida com HTML + CSS + JavaScript, consumindo a API de cotação de moedas da <a href="https://docs.awesomeapi.com.br/api-de-moedas">AwesomeAPI</a>.
 </h4>
 <br>
 
