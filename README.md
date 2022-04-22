@@ -14,12 +14,12 @@
 ## :sunny: Resultado
 
   <div>
-      <img style="width: 33%;" alt="project-screenshot" src="assets/img/project_screenshot_1.png" />
-      <img style="width: 33%;" alt="project-screenshot" src="assets/img/project_screenshot_2.png" />
-      <img style="width: 33%;" alt="project-screenshot" src="assets/img/project_screenshot_3.png" />
-      <img style="width: 33%;" alt="project-screenshot" src="assets/img/project_screenshot_4.png" />
-      <img style="width: 33%;" alt="project-screenshot" src="assets/img/project_screenshot_5.png" />
-      <img style="width: 33%;" alt="project-screenshot" src="assets/img/project_screenshot_6.png" />
+      <img style="width: 25%;" alt="project-screenshot" src="assets/img/project_screenshot_1.png" />
+      <img style="width: 25%;" alt="project-screenshot" src="assets/img/project_screenshot_2.png" />
+      <img style="width: 25%;" alt="project-screenshot" src="assets/img/project_screenshot_3.png" />
+      <img style="width: 25%;" alt="project-screenshot" src="assets/img/project_screenshot_4.png" />
+      <img style="width: 25%;" alt="project-screenshot" src="assets/img/project_screenshot_5.png" />
+      <img style="width: 25%;" alt="project-screenshot" src="assets/img/project_screenshot_6.png" />
 </div>
 
 ---
